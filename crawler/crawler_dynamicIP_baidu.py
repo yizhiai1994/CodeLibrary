@@ -77,4 +77,4 @@ def crawler_baidu(vocabulary_address,save_address):
         save_open.writelines(save_content)
         temp = temp + 1
     save_open.close()
-crawler_baidu('/home/py35/crawler_dynamicIP_baidu_vocabulary.txt','/home/py35/save.txt')
+crawler_baidu('/home/py35/crawler_dynamicIP_baidu_vocabulary.txt','/home/py35/crawler_dynamicIP_baidu_save.txt')
